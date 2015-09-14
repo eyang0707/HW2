@@ -1,0 +1,10 @@
+size(500,500);
+background(0);
+ 
+for(int x=-300; x<width; x+=30){
+  noFill();
+  stroke(50);
+  fill(255);
+  ellipse(x+17, x+17, 42, 42);
+  smooth();
+}
